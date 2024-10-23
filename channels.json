@@ -271,7 +271,7 @@
                         "language": "es",
                         "country": "es",
                         "channelTags": [
-                            "Telecinco.TV"
+                            "Cuatro.TV"
                         ],
                         "streamSources": [
                             {
@@ -320,7 +320,7 @@
                         "indexGroup": 7
                     },
                     {
-                        "name": "TVM",
+                        "name": "TVM Córdoba",
                         "description": "Ayto. Córdoba",
                         "language": "es",
                         "country": "es",
