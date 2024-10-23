@@ -1330,13 +1330,13 @@
                                         ]
                                     }
                                 ],
+                                "headers": [
+                                    {
+                                        "key": "Referer",
+                                        "value": "https://cdnapi.codev8.net/"
+                                    }
+                                ],
                                 "type": "IPTV"
-                            }
-                        ],
-                        "headers": [
-                            {
-                                "key": "Referer",
-                                "value": "https://cdnapi.codev8.net/"
                             }
                         ],
                         "indexFavourite": 37,
