@@ -1095,8 +1095,33 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 26,
-                        "indexGroup": 26
+                        "indexFavourite": 27,
+                        "indexGroup": 27
+                    },
+                    {
+                        "name": "Disney Channel",
+                        "description": "Disney",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Disney.Channel.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 1,
+                                "url": "http://jmrk.xyz:3050/Woods2/ciQwN2vJmU/603501",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 2,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/50080",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 28,
+                        "indexGroup": 28
                     }
                 ]
             }
