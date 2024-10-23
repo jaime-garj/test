@@ -1174,6 +1174,25 @@
                         "indexGroup": 30
                     },
                     {
+                        "name": "BOM Cine",
+                        "description": "BOM",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "BOM.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/2580",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 31,
+                        "indexGroup": 31
+                    },
+                    {
                         "name": "Realmadrid TV",
                         "description": "RM",
                         "language": "es",
@@ -1195,8 +1214,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 31,
-                        "indexGroup": 31
+                        "indexFavourite": 32,
+                        "indexGroup": 32
                     },
                     {
                         "name": "Canal Sur",
@@ -1220,8 +1239,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 32,
-                        "indexGroup": 32
+                        "indexFavourite": 33,
+                        "indexGroup": 33
                     },
                     {
                         "name": "TVG Galicia",
@@ -1240,8 +1259,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 33,
-                        "indexGroup": 33
+                        "indexFavourite": 34,
+                        "indexGroup": 34
                     },
                     {
                         "name": "TVG 2",
@@ -1260,8 +1279,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 34,
-                        "indexGroup": 34
+                        "indexFavourite": 35,
+                        "indexGroup": 35
                     },
                     {
                         "name": "TVG Galicia",
@@ -1280,8 +1299,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 35,
-                        "indexGroup": 35
+                        "indexFavourite": 36,
+                        "indexGroup": 36
                     },
                     {
                         "name": "La 7 Castilla y León",
@@ -1320,8 +1339,8 @@
                                 "value": "cdnapi.codev8.net"
                             }
                         ],
-                        "indexFavourite": 36,
-                        "indexGroup": 36
+                        "indexFavourite": 37,
+                        "indexGroup": 37
                     },
                     {
                         "name": "TV3",
@@ -1340,8 +1359,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 37,
-                        "indexGroup": 37
+                        "indexFavourite": 38,
+                        "indexGroup": 38
                     },
                     {
                         "name": "3/24",
@@ -1360,8 +1379,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 38,
-                        "indexGroup": 38
+                        "indexFavourite": 39,
+                        "indexGroup": 39
                     },
                     {
                         "name": "Canal Extremadura SAT",
@@ -1380,8 +1399,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 39,
-                        "indexGroup": 39
+                        "indexFavourite": 40,
+                        "indexGroup": 40
                     },
                     {
                         "name": "À Punt",
@@ -1400,8 +1419,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 40,
-                        "indexGroup": 40
+                        "indexFavourite": 41,
+                        "indexGroup": 41
                     },
                     {
                         "name": "Telemadrid Internacional",
@@ -1420,8 +1439,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 41,
-                        "indexGroup": 41
+                        "indexFavourite": 42,
+                        "indexGroup": 42
                     },
                     {
                         "name": "7RM Murcia",
@@ -1440,8 +1459,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 42,
-                        "indexGroup": 42
+                        "indexFavourite": 43,
+                        "indexGroup": 43
                     },
                     {
                         "name": "ETB 1",
@@ -1460,8 +1479,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 43,
-                        "indexGroup": 43
+                        "indexFavourite": 44,
+                        "indexGroup": 44
                     },
                     {
                         "name": "ETB 2",
@@ -1480,8 +1499,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 44,
-                        "indexGroup": 44
+                        "indexFavourite": 45,
+                        "indexGroup": 45
                     },
                     {
                         "name": "Aragón TV Internacional",
@@ -1500,8 +1519,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 45,
-                        "indexGroup": 45
+                        "indexFavourite": 46,
+                        "indexGroup": 46
                     },
                     {
                         "name": "TV Canaria",
@@ -1540,8 +1559,8 @@
                                 "value": "cdnapi.codev8.net"
                             }
                         ],
-                        "indexFavourite": 46,
-                        "indexGroup": 46
+                        "indexFavourite": 47,
+                        "indexGroup": 47
                     },
                     {
                         "name": "TPA 7 Asturias",
@@ -1575,8 +1594,8 @@
                                 "value": "https://www.rtpa.es/"
                             }
                         ],
-                        "indexFavourite": 47,
-                        "indexGroup": 47
+                        "indexFavourite": 48,
+                        "indexGroup": 48
                     },
                     {
                         "name": "IB3",
@@ -1595,8 +1614,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 48,
-                        "indexGroup": 48
+                        "indexFavourite": 49,
+                        "indexGroup": 49
                     },
                     {
                         "name": "RTVCE Ceuta",
@@ -1621,8 +1640,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 49,
-                        "indexGroup": 49
+                        "indexFavourite": 50,
+                        "indexGroup": 50
                     },
                     {
                         "name": "TV Melilla",
@@ -1641,8 +1660,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 50,
-                        "indexGroup": 50
+                        "indexFavourite": 51,
+                        "indexGroup": 51
                     },
                     {
                         "name": "TVE Internacional Europa",
@@ -1660,8 +1679,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 51,
-                        "indexGroup": 51
+                        "indexFavourite": 52,
+                        "indexGroup": 52
                     },
                     {
                         "name": "TVE Internacional América",
@@ -1691,8 +1710,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 52,
-                        "indexGroup": 52
+                        "indexFavourite": 53,
+                        "indexGroup": 53
                     },
                     {
                         "name": "Star TVE",
@@ -1710,8 +1729,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 53,
-                        "indexGroup": 53
+                        "indexFavourite": 54,
+                        "indexGroup": 54
                     },
                     {
                         "name": "Antena 3 Internacional",
@@ -1735,8 +1754,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 54,
-                        "indexGroup": 54
+                        "indexFavourite": 55,
+                        "indexGroup": 55
                     },
                     {
                         "name": "Negocios TV",
@@ -1754,8 +1773,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 55,
-                        "indexGroup": 55
+                        "indexFavourite": 56,
+                        "indexGroup": 56
                     },
                     {
                         "name": "Euronews",
@@ -1773,8 +1792,46 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 56,
-                        "indexGroup": 56
+                        "indexFavourite": 57,
+                        "indexGroup": 57
+                    },
+                    {
+                        "name": "RTP 1",
+                        "description": "RTP",
+                        "language": "pt",
+                        "country": "pt",
+                        "channelTags": [
+                            "RTP1.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://streaming-live.rtp.pt/liverepeater/smil:rtp1HD.smil/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 58,
+                        "indexGroup": 58
+                    },
+                    {
+                        "name": "RTP 3",
+                        "description": "RTP",
+                        "language": "pt",
+                        "country": "pt",
+                        "channelTags": [
+                            "RTP3.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://streaming-live.rtp.pt/livetvhlsDVR/rtpnHDdvr.smil/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 59,
+                        "indexGroup": 59
                     }
                 ]
             }
