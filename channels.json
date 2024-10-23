@@ -1695,18 +1695,21 @@
                                 "name": "Pirata 200.59.188.3",
                                 "index": 1,
                                 "url": "http://200.59.188.3:8000/play/a05n",
+                                "refreshRate": 60,
                                 "type": "IPTV"
                             },
                             {
                                 "name": "Pirata 45.181.122.46",
                                 "index": 1,
                                 "url": "http://45.181.122.46:8090/play/a00q",
+                                "refreshRate": 60,
                                 "type": "IPTV"
                             },
                             {
                                 "name": "Pirata vo01.mohdtv.com",
                                 "index": 1,
                                 "url": "http://vo01.mohdtv.com:8880/voby4620/876967856/49976",
+                                "refreshRate": 60,
                                 "type": "IPTV"
                             }
                         ],
@@ -1745,12 +1748,14 @@
                                 "name": "Pirata 160.20.165.246",
                                 "index": 1,
                                 "url": "http://160.20.165.246:8000/play/a00e",
+                                "refreshRate": 60,
                                 "type": "IPTV"
                             },
                             {
                                 "name": "Pirata 200.59.188.3",
                                 "index": 2,
                                 "url": "http://200.59.188.3:8000/play/a0f3",
+                                "refreshRate": 60,
                                 "type": "IPTV"
                             }
                         ],
@@ -1832,6 +1837,81 @@
                         ],
                         "indexFavourite": 59,
                         "indexGroup": 59
+                    },
+                    {
+                        "name": "ODISEA",
+                        "description": "AMC",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Odisea.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/2381",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 2,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603764",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 60,
+                        "indexGroup": 60
+                    },
+                    {
+                        "name": "Canal Historia",
+                        "description": "AMC",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Historia.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/51568",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 2,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603435",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 4,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@qq.com/COf1hHEhiX/603437",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 61,
+                        "indexGroup": 61
+                    },
+                    {
+                        "name": "National Geographic",
+                        "description": "AMC",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "National.Geographic.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/48437",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 62,
+                        "indexGroup": 62
                     }
                 ]
             }
