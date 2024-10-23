@@ -1269,7 +1269,7 @@
                         "country": "es",
                         "region": "Galicia",
                         "channelTags": [
-                            "TVGAL.TV"
+                            "TVG2.TV"
                         ],
                         "streamSources": [
                             {
@@ -1289,7 +1289,7 @@
                         "country": "es",
                         "region": "Galicia",
                         "channelTags": [
-                            "TVGAL.TV"
+                            "CMM.TV"
                         ],
                         "streamSources": [
                             {
@@ -1550,13 +1550,13 @@
                                         ]
                                     }
                                 ],
+                                "headers": [
+                                    {
+                                        "key": "Referer",
+                                        "value": "https://cdnapi.codev8.net/"
+                                    }
+                                ],
                                 "type": "IPTV"
-                            }
-                        ],
-                        "headers": [
-                            {
-                                "key": "Referer",
-                                "value": "https://cdnapi.codev8.net/"
                             }
                         ],
                         "indexFavourite": 47,
