@@ -2364,6 +2364,25 @@
                         ],
                         "indexFavourite": 82,
                         "indexGroup": 82
+                    },
+                    {
+                        "name": "Twitch Test",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "a"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Twitch",
+                                "index": 1,
+                                "url": "https://video-weaver.fra05.hls.ttvnw.net/v1/playlist/CsQEP08cw9jGEOU4LcSAVDmNS7OnWleXx7ABenKw9baA90oM9QdMNlv6hOiaGMh4D2NkjN3DI0-frJzkn039Yf4MQLJDcu7xC_csWhn2Qs2nPQm9mjLm2mB5DJyw4-Xb-5m5iNZcjOzQTcnnBOocaTxJ0OD4xnJAJj7WZ-USaQpP9ct5bKG24g5dYfjdsxvlCfv3xw39TlD_9O1nhfgnkWr-39mJsS5sEAX1Yq3qJITGzYsyVMP-whroFgnKLQvUkI-i-gWpZjpirvqgqNM7u_uqNE-Cl7X5ffCAcha4zkZBRSnwYU8IbQG8ifhbPvqn_OeYga59oaeASaZukpF_WKD5KTKMCS1L3-ioAOXMQ_VYzOzSofPGHsB4kpODgmaL8YsQ2LNTZNOCmE9JPl9w9a23pfE7jfG7nVOguQOWN7gPNgLYIrxosBioMOX3OcHvs30w4sOOkrEzZlcg3jqgH0kfVSj_hOYLxNBnhPfSQVTJoyAzc7wWLI8FBR8-ek8nOWodw0J_qsx9xmspERbDCRa_a_8fc-PAqJu5cvJL_NyIblUk_xEflMT-VXOXyeFUk68U7B-Kf5yyxqWUP3fUHuEQykqm8YsL7elE5pcOM8WTlVqscwslmjsqXIecjZW6B0LJGdcF8FyKYQHzF7eWjNWQ3nNKZ3LWIuwU1XRsp5wtfxVe-Nv--j6m1QNCYL5-yB-9LpmdC8SG1kh2LUSkU8V8QkdoiAz_Ru3S1yxa_LNj5dhWxljBeYAf_Y4_MiLSUcJzT39jahoMtsLCxC_swdi64bW5IAEqCXVzLWVhc3QtMTCNCQ.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 83,
+                        "indexGroup": 83
                     }
                 ]
             }
