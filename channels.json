@@ -2293,7 +2293,7 @@
                         ],
                         "streamSources": [
                             {
-                                "name": "Pirata M+ vip.sibfungold.net",
+                                "name": "Pirata M+ abcnew.site",
                                 "index": 1,
                                 "url": "http://abcnew.site:8880/6mk410034/93527313/29280",
                                 "type": "IPTV"
@@ -2337,7 +2337,7 @@
                         ],
                         "streamSources": [
                             {
-                                "name": "Pirata M+ vip.sibfungold.net",
+                                "name": "Pirata M+ abcnew.site",
                                 "index": 1,
                                 "url": "http://abcnew.site:8880/6mk410034/93527313/29265",
                                 "type": "IPTV"
@@ -2345,6 +2345,25 @@
                         ],
                         "indexFavourite": 81,
                         "indexGroup": 81
+                    },
+                    {
+                        "name": "M+ Multipantalla",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "M+.Multipantalla.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 1,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603713",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 82,
+                        "indexGroup": 82
                     }
                 ]
             }
