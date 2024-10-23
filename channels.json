@@ -409,6 +409,145 @@
                         ],
                         "indexFavourite": 10,
                         "indexGroup": 10
+                    },
+                    {
+                        "name": "neox",
+                        "description": "ATRESMEDIA",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Neox.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Atresplayer",
+                                "index": 1,
+                                "url": "{token}",
+                                "apiCalls": [
+                                    {
+                                        "url": "https://api.atresplayer.com/client/v1/url?href=/directos/neox",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 1,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "href"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "url": "{1}",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 2,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "urlVideo"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "url": "{2}",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 3,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "sourcesLive[0].src"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 11,
+                        "indexGroup": 11
+                    },
+                    {
+                        "name": "nova",
+                        "description": "ATRESMEDIA",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Nova.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Atresplayer",
+                                "index": 1,
+                                "url": "{token}",
+                                "apiCalls": [
+                                    {
+                                        "url": "https://api.atresplayer.com/client/v1/url?href=/directos/nova",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 1,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "href"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "url": "{1}",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 2,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "urlVideo"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "url": "{2}",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 3,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "sourcesLive[0].src"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 12,
+                        "indexGroup": 12
+                    },
+                    {
+                        "name": "tdp",
+                        "description": "TVE",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "La1.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "RTVE Play",
+                                "index": 1,
+                                "url": "https://rtvelivestream.akamaized.net/rtvesec/tdp/tdp_main_720.m3u8",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Cloudfront HEVC",
+                                "index": 2,
+                                "url": "https://d2a02gfcid1k4a.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-clihr3vf54f9j/Teledeporte_ES.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 13,
+                        "indexGroup": 13
                     }
                 ]
             }
