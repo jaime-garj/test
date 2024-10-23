@@ -1993,6 +1993,220 @@
                         ],
                         "indexFavourite": 65,
                         "indexGroup": 65
+                    },
+                    {
+                        "name": "STAR Channel",
+                        "description": "FOX",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "STAR.Channel.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/53665",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 66,
+                        "indexGroup": 66
+                    },
+                    {
+                        "name": "AMC",
+                        "description": "AMC",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "AMC.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/53663",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 67,
+                        "indexGroup": 67
+                    },
+                    {
+                        "name": "STAR Channel",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "STAR.Channel.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/53665",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 68,
+                        "indexGroup": 68
+                    },
+                    {
+                        "name": "AXN",
+                        "description": "AXN",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "AXN.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/2589",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 2,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/48443",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 3,
+                                "url": "http://jmrk.xyz:3050/gailstamps.gs@gmail.com/htYnUZkxEB/603392",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 69,
+                        "indexGroup": 69
+                    },
+                    {
+                        "name": "AXN Movies",
+                        "description": "AXN",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "AXN.Movies.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/2588",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 2,
+                                "url": "http://jmrk.xyz:3050/gailstamps.gs@gmail.com/htYnUZkxEB/603389",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 3,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/48441",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 70,
+                        "indexGroup": 70
+                    },
+                    {
+                        "name": "Movistar Plus+",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Movistar.Plus+.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 1,
+                                "url": "http://jmrk.xyz:3050/Woods2/ciQwN2vJmU/603342",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 71,
+                        "indexGroup": 71
+                    },
+                    {
+                        "name": "Andalucía Cocina (Canal Sur)",
+                        "description": "RTVA",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "ACocina.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 72,
+                        "indexGroup": 72
+                    },
+                    {
+                        "name": "Andalucía Turismo (Canal Sur)",
+                        "description": "RTVA",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "ATurismo.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?&network_id=12685",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 73,
+                        "indexGroup": 73
+                    },
+                    {
+                        "name": "Canal Sur Noticias 24h",
+                        "description": "RTVA",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "CSN24H.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://cdnlive.codev8.net/rtvalive/smil:channel42.smil/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 74,
+                        "indexGroup": 74
+                    },
+                    {
+                        "name": "RT en Español",
+                        "description": "Russia Today",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "CSN24H.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://rt-esp.rttv.com/dvr/rtesp/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 75,
+                        "indexGroup": 75
                     }
                 ]
             }
