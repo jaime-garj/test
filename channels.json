@@ -203,17 +203,179 @@
                                 "index": 2,
                                 "url": "https://d35x6iaiw8f75z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kbwsl0jk1bvoo/canal_sur_andalucia_es.m3u8",
                                 "type": "IPTV"
-                            },
-                            {
-                                "name": "IPTV TDT",
-                                "index": 3,
-                                "url": "http://77.228.160.100:61800/play/a008",
-                                "type": "IPTV"
                             }
                         ],
                         "indexFavourite": 4,
                         "indexGroup": 4
-                    }
+                    },
+                    {
+                        "name": "laSexta",
+                        "description": "ATRESMEDIA",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "LaSexta.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Atresplayer",
+                                "index": 1,
+                                "url": "{token}",
+                                "apiCalls": [
+                                    {
+                                        "url": "https://api.atresplayer.com/client/v1/url?href=/directos/lasexta",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 1,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "href"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "url": "{1}",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 2,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "urlVideo"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "url": "{2}",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 3,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "sourcesLive[0].src"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 6,
+                        "indexGroup": 6
+                    },
+                    {
+                        "name": "Cuatro",
+                        "description": "MEDIASET",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Telecinco.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://directos.mitele.es/orilinear21/live/linear21/playlist/playlist.isml/ctv.m3u8?{token}",
+                                "apiCalls": [
+                                    {
+                                        "url": "https://cerbero.mediaset.es",
+                                        "method": "POST",
+                                        "type": "json",
+                                        "index": 1,
+                                        "body": "{\"bbx\":\"20b8d16849672230eca9ffe1781f8ef19b3981c98c4a12cda802d4ecb29bc8b8384da6d58447beaf30618391d64617bf42691a59e8774194da0dc98ce1480d27d088fba923327dcb5715fd8e9211132796c18361fb2ddb7a8d42073bc08140b99d031da97391b8b1a4b24e13eeadd05e57f3d02588de2fc4f3fa0bd77569a25aa7233802b235f73c88f56539d0632b92e42f23f143e2624932d79ed68768aa952f5e9f6278ec0a17bfea0957f3a85794ceebdbedd9cc755899c225dc228a4e3c3e8fc5838417d6f763332e6dbc292c8bddaa469938d02da8960e8cf9899494a633969b98c3718bcf2a0b0426ed3ec2ec5f1f6f866a3726aa68cc5cfd2b7d916dfa9b7b90be83920b9e54b91fa89e257001f6d3f0866ab5b7491db868e11ff6fe5d672715f56a98301540f159d5bfaca26cbc437eb5a6272604efdd195873e5d648e93880b980e1518261d8fd4f835db3197de96f07276f7f081f063167cbb08da795c2c19c2c3e7b7fd16cffca28c9247e000199c62e13e64fd75d5323d090bab86f2fc123fdaa1da33ccc9d7eea79dd114fcf6ca83d606c08258dec726fd76e3daac5569211a58776d56511a34f58b91f5075632580e438b1cdaed4fecc700a43bb2b48b34249a7553e99389cd1e65f71850c3ae1646720af9b4fffec25f17a5be815136e3c65fc90f767236a79c033d9149c4f6f5262817d36dafab667b6edc45f9490130b211db34b26e044e506f3eff4ed9167208bfe6800847053aa274f26e959804daf71bf362cc21641c983304bad361e7ccf84aaf97bc44bcf75020f1ff4df2c6eb36315f0b5bc32aa4a17ea1a2a00043e99df6e050218921091fbcb01685af956691c4ef603f8a413f8c72867b8b9ddee30be093f34cf5c921ec30f90d025f257ed5fcccbeb01f422b459c049c09d4fc94ec03a0942f04ae9f9d3fe73c90dabd6c45c3302f48c00e73b6c3c6dde11ebb96e6cdfb488088d7582f82088b502d5fb368f7db2e08920a10ec01199d6af50c6cea8219cd12f01b4f096d7ed755d32f1db272f6f63711ce50893a4b59c8bf15036bcf8bb8a7f3cef25e1eee3b089e7422502b5e85b77054d94e5c7f81d2f0dff36ee81af466d1583ab3606c3a4db98c5629dc5988dd269de56cae7f5efe964e3a35e40e23907475b023a332a5e33a6327c113a0b03962540802ac820134dd8e185708b61a13c4716d870d9e32a9aabca6dfdb6c2f2e43f970827e414681a098f239bfdd275553db4befde7a9a28800971cb2b7f29ea38e04be4969654a9347b6545ae7bf0de673768cf4bf0fe7c45fd96bd6989691db8fe15c7b0a17a5f681ad360c3abcedfd785d0b5433d237f0ffde22b0819ab531e8914aff4dbb4aa598cd1dab4eb97b1a64069298bd8062013fa677757c432c29d40c95674d30eb97672430bda0dd97e2cfe3d5d3bdf8bf94d3ef5e5ed53cbd403e591620d6b1775d0c01a103d6765ce7760741bcbf8a6abb7fef872ffb2f4ac12cb89cbe5f8c972ebe43ecae82027e19d9f9ac7caabf5c783ea5602404d9be4b48f3d8abd37743b53e276b3904800b0bbeb9d18fa631a1d3aa82bb3d2d920bc943bf270464e10099c319406c7561b2b375904efbf6586c252873d6a89a0289caeba2dc7ef0230980d0765a0609736620661e9699d70d2e33c397bd17a9a0e414f74573c6888cb737c98f9e6e1ed286b361413c0352373aa6997a04baa5d1de17dd6df594a965907d7ffdcbec08ff2bbe8da253e5d28a910eccd1c43f05cf21bdeb4a367c67e48e448bc0fa855569797f8444141e0f77395fb8953f85176f59abb34162349cd67244eb325fbc4df500f479594fd2d93870e5d4a20258e85d170c7abaa6eaa87cff26c0e897a56572d7c79e036e480477876513af502d17ebc03f953f39a4fca27908579d6fffffa45b6320b7e8365b3cc5a46a80dcf14818d445e35600fbb854b410272ef1677d413279b43a3b443b04a1462963d67dc499de0ceca605853b4aa966221c3b444ba57b5e955ceb1aa1dc70b6db9c867a3749bdb4320b4066baa23e286479a83a3dafe3b634ee77c53a2d852e4f5dbe048fc49796a48c38cfc6fdc56a3a80e86bc8a3be45aaa8ed1b3de6107c63ad5715665caf04bb03642ef1cb6ca419394ae28844540f703973e5ba31e280620644d24bf0aee21b6d98d04f53af8f7d1792cf75e2f267d9b416c145051c5247a7cb2ce3b01bc76462a5bd808dfa23234f3927dbccafbeffb25dbeb44f51f555ea7df9be7ceb3b21ce9b3a76b5dafc3724ab169c6869045a45729e296516a0ad270f8bd49f7aa1facf05aef9e866b6ee141a6c642a804f1f340b77336c2d3be2652b249419eb66bc1839169eaf2df38406d8553afc7497ee35b066bc6d659a3fb635b3a23f914fc2b7991631b2660eb370d7851a88b6568afed6d27b9a1f75648afb03fc4b1517c44e2478e60504b641e722eaf688d8435696dc5f197ae2a713cf55dfe17219c1a04598813853dd629156e5e55d631772b24b629479ec0ef26f22a43418c652b569ed2711d0afea20fa79fc390f24f50a7a8f803ffd38771bbcd590696128fe06e6b459718db4083a186f4c35eab1d1a0e3191db26f1dbe8b512ff8012026e5633633a386af9f5f5d3e9292c3de105122e0df0b933b6d0198922186290a60b33c67abd5b2a9acba8f22854201527536d95538e4a5734910996e31995566026726bd0c5199e0ad0aab24da35c0c281ec2861c157c11be247927d6ad0b070e3457e657950c713bd5d08028775242493d72adb6e8843bb9d2d8cd4ee022b81b8fd179f9486f2a9c4a1d705a605ebe8c39873ca7203923f0d1ea823dc14130952098d5e5123b44c9a6946338b4c3124f212d0686e3f3f671be864291289da1abd4fe70631e9b7e6833129259b7c727c2c7fa88955a9ba9a4d0646cd0d719175c7a2d2b5e2340ceca11c0ea65a18133f7832ebf4a941da5e633da80f5f24cc590237fb81f4b8cc5b4e481c658d4332228b25e4b8074a7fe151567b74462d35416d7c276a4697a3d00e04e1c4e1cdf2c742471e30ac6b85b5b72bf4afe8de9066ec427085d071c41ca167379e6c3f09684d64649b1f954f9c672119f60b3f27f7877d8d5a808a7d4d21ad96df22f4bae13dbc142622368503d8ebae105888b4bff91fd40f61290b07e7774626313bdc2a1e7aeded1799649196d2e47d5115c1adef41b93ba9d1bc992d0711d195de5bb73889aec9da10d3beee446b7a1f3dfdf93d4df7dfb33ff4b868bf8bf28ca9794bf61b2ee1f6e89863585ea94907e00fdea32e03efcc001d8aa63d4c1309b8c14b9a8ff7e587d1410a\",\"gbx\":\"20b8d16849672230eca9ffe1781f8ef19b3981c98c4a12cda802d4ecb29bc8b8384da6d58455b7ae6132b784d6105cad53710757a97b4b8e9d599fb2e34d427c9bdeb2e7203e66c8550efd98921b0a3ad081c44de336cd6fc25a463b99d70e92cc7f73c85bbae889ebe41342fa9b9b1253ad8d6ddccc619de3f5028e2b6ea518a624745eee77f321d3ff3c6c88752b81963f6eba4aa8600a61c292dc9b70a8ce3056937f74bb623ffab5\"}",
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "tokens.2.cdn"
+                                            }
+                                        ],
+                                        "headers": [
+                                            {
+                                                "key": "Origin",
+                                                "value": "https://www.mitele.es"
+                                            },
+                                            {
+                                                "key": "Content-Type",
+                                                "value": "application/json;charset=UTF-8"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "headers": [
+                                    {
+                                        "key": "Referer",
+                                        "value": "https://www.mitele.es"
+                                    },
+                                    {
+                                        "key": "Host",
+                                        "value": "directos.mitele.es"
+                                    }
+                                ],
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 7,
+                        "indexGroup": 7
+                    },
+                    {
+                        "name": "TVM",
+                        "description": "Ayto. Córdoba",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "TVM.Cordoba"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://5924d3ad0efcf.streamlock.net/cordoba/cordobalive/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 8,
+                        "indexGroup": 8
+                    },
+                    {
+                        "name": "24h",
+                        "description": "TVE",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "24Horas.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://rtvelivestream.akamaized.net/rtvesec/24h/24h_main_dvr_720.m3u8",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Cloudfront HEVC",
+                                "index": 2,
+                                "url": "https://d3pfmk89wc0vm9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-nlow3qkp9tmdm/24H_ES.m3u8",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "YouTube",
+                                "index": 3,
+                                "url": "https://ythls-v3.onrender.com/channel/UC7QZIf0dta-XPXsp9Hv4dTw.m3u8",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Emisión Pirata 1080p",
+                                "index": 4,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/2601",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 9,
+                        "indexGroup": 9
+                    },
+                    {}
                 ]
             }
         ]
