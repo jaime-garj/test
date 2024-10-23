@@ -1197,6 +1197,91 @@
                         ],
                         "indexFavourite": 31,
                         "indexGroup": 31
+                    },
+                    {
+                        "name": "Canal Sur",
+                        "description": "RTVA",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "CanalSurA.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/2570",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 2,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/51579",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 32,
+                        "indexGroup": 32
+                    },
+                    {
+                        "name": "TVG Galicia",
+                        "description": "RTVG",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Galicia",
+                        "channelTags": [
+                            "TVGAL.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "http://crtvg-europa.flumotion.cloud/crtvg/europa_high/chunks_dvr.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 33,
+                        "indexGroup": 33
+                    },
+                    {
+                        "name": "TVG 2",
+                        "description": "RTVG",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Galicia",
+                        "channelTags": [
+                            "TVGAL.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "http://crtvg-tvg2.flumotion.cloud/crtvg/tvg2_high/chunks_dvr.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 34,
+                        "indexGroup": 34
+                    },
+                    {
+                        "name": "TVG Galicia",
+                        "description": "RTVG",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Galicia",
+                        "channelTags": [
+                            "TVGAL.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_sqa9madm/protocol/https/format/applehttp/flavorIds/1_qpsefbny,1_94l3754c,1_efvhjox0,1_ak5qny7x,1_75nxkus5/a.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 35,
+                        "indexGroup": 35
                     }
                 ]
             }
