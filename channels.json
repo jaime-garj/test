@@ -1326,7 +1326,7 @@
                     {
                         "name": "TV3",
                         "description": "TV3",
-                        "language": "es",
+                        "language": "ca",
                         "country": "es",
                         "region": "Catalunya",
                         "channelTags": [
@@ -1346,7 +1346,7 @@
                     {
                         "name": "3/24",
                         "description": "TV3",
-                        "language": "es",
+                        "language": "ca",
                         "country": "es",
                         "region": "Catalunya",
                         "channelTags": [
@@ -1442,6 +1442,141 @@
                         ],
                         "indexFavourite": 42,
                         "indexGroup": 42
+                    },
+                    {
+                        "name": "ETB 1",
+                        "description": "EITB",
+                        "language": "eus",
+                        "country": "es",
+                        "region": "País Vasco",
+                        "channelTags": [
+                            "ETB1.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 43,
+                        "indexGroup": 43
+                    },
+                    {
+                        "name": "ETB 2",
+                        "description": "EITB",
+                        "language": "es",
+                        "country": "es",
+                        "region": "País Vasco",
+                        "channelTags": [
+                            "ETB.2.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 44,
+                        "indexGroup": 44
+                    },
+                    {
+                        "name": "Aragón TV Internacional",
+                        "description": "EITB",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Aragón",
+                        "channelTags": [
+                            "ETB.2.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 45,
+                        "indexGroup": 45
+                    },
+                    {
+                        "name": "La 7 Castilla y León",
+                        "description": "RTVCYL",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Castilla y León",
+                        "channelTags": [
+                            "La7.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https:{token}",
+                                "apiCalls": [
+                                    {
+                                        "url": "https://cdnapi.codev8.net/apicloud/v1.0/public/iframe/8d417032-64cb-4f1e-9042-c97e05501eed",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 1,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "media.m3u8"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "IPTV"
+                            }
+                        ],
+                        "headers": [
+                            {
+                                "key": "Referer",
+                                "value": "cdnapi.codev8.net"
+                            }
+                        ],
+                        "indexFavourite": 46,
+                        "indexGroup": 46
+                    },
+                    {
+                        "name": "La 7 Castilla y León",
+                        "description": "RTVCYL",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Castilla y León",
+                        "channelTags": [
+                            "La7.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https:{token}",
+                                "apiCalls": [
+                                    {
+                                        "url": "https://www.rtpa.es/tpa-television",
+                                        "method": "GET",
+                                        "type": "html",
+                                        "index": 1,
+                                        "stringSearch": "flumotion.cloud"
+                                    }
+                                ],
+                                "type": "IPTV"
+                            }
+                        ],
+                        "headers": [
+                            {
+                                "key": "Referer",
+                                "value": "https://www.rtpa.es/"
+                            }
+                        ],
+                        "indexFavourite": 47,
+                        "indexGroup": 47
                     }
                 ]
             }
