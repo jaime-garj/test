@@ -2062,13 +2062,13 @@
                         "streamSources": [
                             {
                                 "name": "Pirata M+ abcnew.site",
-                                "index": 1,
+                                "index": 2,
                                 "url": "http://abcnew.site:8880/6mk410034/93527313/2589",
                                 "type": "IPTV"
                             },
                             {
                                 "name": "Pirata M+ vip.sibfungold.net",
-                                "index": 2,
+                                "index": 1,
                                 "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/48443",
                                 "type": "IPTV"
                             },
