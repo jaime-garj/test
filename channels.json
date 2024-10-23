@@ -1490,7 +1490,7 @@
                         "country": "es",
                         "region": "Aragón",
                         "channelTags": [
-                            "ETB.2.es"
+                            "Aragón.TV.Int.es"
                         ],
                         "streamSources": [
                             {
@@ -1504,13 +1504,13 @@
                         "indexGroup": 45
                     },
                     {
-                        "name": "La 7 Castilla y León",
-                        "description": "RTVCYL",
+                        "name": "TV Canaria",
+                        "description": "RTVC",
                         "language": "es",
                         "country": "es",
-                        "region": "Castilla y León",
+                        "region": "Canarias",
                         "channelTags": [
-                            "La7.TV"
+                            "Canarias.TV"
                         ],
                         "streamSources": [
                             {
@@ -1544,13 +1544,13 @@
                         "indexGroup": 46
                     },
                     {
-                        "name": "La 7 Castilla y León",
+                        "name": "TPA 7 Asturias",
                         "description": "RTVCYL",
                         "language": "es",
                         "country": "es",
-                        "region": "Castilla y León",
+                        "region": "Asturias",
                         "channelTags": [
-                            "La7.TV"
+                            "TPA.TV"
                         ],
                         "streamSources": [
                             {
@@ -1577,6 +1577,26 @@
                         ],
                         "indexFavourite": 47,
                         "indexGroup": 47
+                    },
+                    {
+                        "name": "IB3",
+                        "description": "RTVIB",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Illes Balears",
+                        "channelTags": [
+                            "IB3.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://ythls-v3.onrender.com/channel/UCff_CBVJDTHP4wOHPjP5BMg.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 48,
+                        "indexGroup": 48
                     }
                 ]
             }
