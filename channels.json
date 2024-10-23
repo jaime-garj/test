@@ -167,16 +167,28 @@
                                                 "jsonPath": "tokens.2.cdn"
                                             }
                                         ],
-                                        "headers": {
-                                            "Origin": "https://www.mitele.es",
-                                            "Content-Type": "application/json;charset=UTF-8"
-                                        }
+                                        "headers": [
+                                            {
+                                                "key": "Origin",
+                                                "value": "https://www.mitele.es"
+                                            },
+                                            {
+                                                "key": "Content-Type",
+                                                "value": "application/json;charset=UTF-8"
+                                            }
+                                        ]
                                     }
                                 ],
-                                "headers": {
-                                    "Host": "directos.mitele.es",
-                                    "Referer": "https://www.mitele.es/"
-                                },
+                                "headers": [
+                                    {
+                                        "key": "Referer",
+                                        "value": "https://www.mitele.es"
+                                    },
+                                    {
+                                        "key": "Host",
+                                        "value": "directos.mitele.es"
+                                    }
+                                ],
                                 "type": "IPTV"
                             }
                         ],
