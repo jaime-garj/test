@@ -1556,7 +1556,7 @@
                             {
                                 "name": "Web",
                                 "index": 1,
-                                "url": "https:{token}",
+                                "url": "{token}",
                                 "apiCalls": [
                                     {
                                         "url": "https://www.rtpa.es/tpa-television",
@@ -1597,6 +1597,102 @@
                         ],
                         "indexFavourite": 48,
                         "indexGroup": 48
+                    },
+                    {
+                        "name": "RTVCE Ceuta",
+                        "description": "RTVCE",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Ceuta",
+                        "channelTags": [
+                            "RTVCE.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web CH1",
+                                "index": 1,
+                                "url": "https://cdnlivevlc.codev8.net/rtvcelive/smil:channel1.smil/playlist.m3u8",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Web CH2",
+                                "index": 2,
+                                "url": "https://cdnlivevlc.codev8.net/rtvcelive/smil:channel2.smil/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 49,
+                        "indexGroup": 49
+                    },
+                    {
+                        "name": "TV Melilla",
+                        "description": "RTVMelilla",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Melilla",
+                        "channelTags": [
+                            "TVMelilla.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 50,
+                        "indexGroup": 50
+                    },
+                    {
+                        "name": "TVE Internacional Europa",
+                        "description": "TVE",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "TVEIntEuropa.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 51,
+                        "indexGroup": 51
+                    },
+                    {
+                        "name": "TVE Internacional América",
+                        "description": "TVE",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "TVEIntAmerica.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata 200.59.188.3",
+                                "index": 1,
+                                "url": "http://200.59.188.3:8000/play/a05n",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata 45.181.122.46",
+                                "index": 1,
+                                "url": "http://45.181.122.46:8090/play/a00q",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata vo01.mohdtv.com",
+                                "index": 1,
+                                "url": "http://vo01.mohdtv.com:8880/voby4620/876967856/49976",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 52,
+                        "indexGroup": 52
                     }
                 ]
             }
