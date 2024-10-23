@@ -1328,7 +1328,7 @@
                         "description": "TV3",
                         "language": "es",
                         "country": "es",
-                        "region": "Cataluña",
+                        "region": "Catalunya",
                         "channelTags": [
                             "TV3.TV"
                         ],
@@ -1348,7 +1348,7 @@
                         "description": "TV3",
                         "language": "es",
                         "country": "es",
-                        "region": "Cataluña",
+                        "region": "Catalunya",
                         "channelTags": [
                             "324.TV"
                         ],
@@ -1362,6 +1362,86 @@
                         ],
                         "indexFavourite": 38,
                         "indexGroup": 38
+                    },
+                    {
+                        "name": "Canal Extremadura SAT",
+                        "description": "RTVEX",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Extremadura",
+                        "channelTags": [
+                            "Canal.Extremadura.Sat.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://cdnapisec.kaltura.com/p/5581662/sp/558166200/playManifest/entryId/1_1u7ssdy3/protocol/https/format/applehttp/flavorIds/1_8xbndriw/a.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 39,
+                        "indexGroup": 39
+                    },
+                    {
+                        "name": "À Punt",
+                        "description": "À Punt",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Comunitat Valenciana",
+                        "channelTags": [
+                            "APUNT.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://bcovlive-a.akamaihd.net/8499d938ef904e39b58a4adec2ddeada/eu-west-1/6057955885001/playlist_dvr.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 40,
+                        "indexGroup": 40
+                    },
+                    {
+                        "name": "Telemadrid Internacional",
+                        "description": "RTVM",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Comunidad de Madrid",
+                        "channelTags": [
+                            "Telemadrid.Int..es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://new-international-23-secure2.akamaized.net/index.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 41,
+                        "indexGroup": 41
+                    },
+                    {
+                        "name": "7RM Murcia",
+                        "description": "7RM",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Murcia",
+                        "channelTags": [
+                            "7RM.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://rtv-murcia-live.globalmest.com/principal/smil:principal.smil/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 42,
+                        "indexGroup": 42
                     }
                 ]
             }
