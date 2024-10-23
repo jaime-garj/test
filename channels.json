@@ -2115,6 +2115,43 @@
                     },
                     {
                         "name": "Movistar Plus+",
+                        "description": "Movistar Plus+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "La.Resistencia.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/29301",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ vo01.mohdtv.com",
+                                "index": 2,
+                                "url": "http://vo01.mohdtv.com:8880/voby4620/876967856/29301",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 3,
+                                "url": "http://jmrk.xyz:3050/Woods2/ciQwN2vJmU/603595",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 4,
+                                "url": "http://jmrk.xyz:3050/gailstamps.gs@gmail.com/htYnUZkxEB/603595",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 71,
+                        "indexGroup": 71
+                    },
+                    {
+                        "name": "Movistar Plus+",
                         "description": "M+",
                         "language": "es",
                         "country": "es",
@@ -2129,8 +2166,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 71,
-                        "indexGroup": 71
+                        "indexFavourite": 72,
+                        "indexGroup": 72
                     },
                     {
                         "name": "Andalucía Cocina (Canal Sur)",
@@ -2148,8 +2185,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 72,
-                        "indexGroup": 72
+                        "indexFavourite": 73,
+                        "indexGroup": 73
                     },
                     {
                         "name": "Andalucía Turismo (Canal Sur)",
@@ -2167,8 +2204,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 73,
-                        "indexGroup": 73
+                        "indexFavourite": 74,
+                        "indexGroup": 74
                     },
                     {
                         "name": "Canal Sur Noticias 24h",
@@ -2186,8 +2223,8 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 74,
-                        "indexGroup": 74
+                        "indexFavourite": 75,
+                        "indexGroup": 75
                     },
                     {
                         "name": "RT en Español",
@@ -2205,8 +2242,65 @@
                                 "type": "IPTV"
                             }
                         ],
-                        "indexFavourite": 75,
-                        "indexGroup": 75
+                        "indexFavourite": 76,
+                        "indexGroup": 76
+                    },
+                    {
+                        "name": "M+ LALIGA TV 2",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "M+.LALIGA.TV.2.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/29282",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 77,
+                        "indexGroup": 77
+                    },
+                    {
+                        "name": "M+ LALIGA TV 3",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "M+.LALIGA.TV.3.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/29281",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 78,
+                        "indexGroup": 78
+                    },
+                    {
+                        "name": "M+ LALIGA TV 4",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "M+.LALIGA.TV.4.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/29280",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 79,
+                        "indexGroup": 79
                     }
                 ]
             }
