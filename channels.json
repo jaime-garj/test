@@ -375,7 +375,41 @@
                         "indexFavourite": 9,
                         "indexGroup": 9
                     },
-                    {}
+                    {
+                        "name": "PTV Córdoba",
+                        "description": "Procono",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Andalucía",
+                        "subregion": "Córdoba",
+                        "channelTags": [
+                            "PTV.Cordoba"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://streamer.zapitv.com/PTV_CORDOBA/index.m3u8",
+                                "type": "IPTV",
+                                "headers": [
+                                    {
+                                        "key": "Accept-Encoding",
+                                        "value": "gzip, deflate, br, zstd"
+                                    },
+                                    {
+                                        "key": "Host",
+                                        "value": "streamer.zapitv.com"
+                                    },
+                                    {
+                                        "key": "User-Agent",
+                                        "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+                                    }
+                                ]
+                            }
+                        ],
+                        "indexFavourite": 10,
+                        "indexGroup": 10
+                    }
                 ]
             }
         ]
