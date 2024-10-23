@@ -1693,6 +1693,88 @@
                         ],
                         "indexFavourite": 52,
                         "indexGroup": 52
+                    },
+                    {
+                        "name": "Star TVE",
+                        "description": "TVE",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "StarTVE.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 53,
+                        "indexGroup": 53
+                    },
+                    {
+                        "name": "Antena 3 Internacional",
+                        "description": "ATRESMEDIA",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "A3INT.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata 160.20.165.246",
+                                "index": 1,
+                                "url": "http://160.20.165.246:8000/play/a00e",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata 200.59.188.3",
+                                "index": 2,
+                                "url": "http://200.59.188.3:8000/play/a0f3",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 54,
+                        "indexGroup": 54
+                    },
+                    {
+                        "name": "Negocios TV",
+                        "description": "NegociosTV",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Negocios.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://streaming013.gestec-video.com/hls/negociostv.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 55,
+                        "indexGroup": 55
+                    },
+                    {
+                        "name": "Euronews",
+                        "description": "Euronews",
+                        "language": "es",
+                        "country": "eu",
+                        "channelTags": [
+                            "TVEEuropa.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "http://euronews-euronews-spanish-2-mx.samsung.wurl.tv/playlist.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 56,
+                        "indexGroup": 56
                     }
                 ]
             }
