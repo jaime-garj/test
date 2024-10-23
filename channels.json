@@ -1386,7 +1386,7 @@
                     {
                         "name": "À Punt",
                         "description": "À Punt",
-                        "language": "es",
+                        "language": "ca",
                         "country": "es",
                         "region": "Comunitat Valenciana",
                         "channelTags": [
@@ -1581,7 +1581,7 @@
                     {
                         "name": "IB3",
                         "description": "RTVIB",
-                        "language": "es",
+                        "language": "ca",
                         "country": "es",
                         "region": "Illes Balears",
                         "channelTags": [
