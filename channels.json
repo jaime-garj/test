@@ -1336,7 +1336,7 @@
                         "headers": [
                             {
                                 "key": "Referer",
-                                "value": "cdnapi.codev8.net"
+                                "value": "https://cdnapi.codev8.net/"
                             }
                         ],
                         "indexFavourite": 37,
@@ -1556,7 +1556,7 @@
                         "headers": [
                             {
                                 "key": "Referer",
-                                "value": "cdnapi.codev8.net"
+                                "value": "https://cdnapi.codev8.net/"
                             }
                         ],
                         "indexFavourite": 47,
@@ -1585,13 +1585,13 @@
                                         "stringSearch": "flumotion.cloud"
                                     }
                                 ],
+                                "headers": [
+                                    {
+                                        "key": "Referer",
+                                        "value": "https://www.rtpa.es/"
+                                    }
+                                ],
                                 "type": "IPTV"
-                            }
-                        ],
-                        "headers": [
-                            {
-                                "key": "Referer",
-                                "value": "https://www.rtpa.es/"
                             }
                         ],
                         "indexFavourite": 48,
