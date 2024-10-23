@@ -1283,7 +1283,7 @@
                         "indexGroup": 35
                     },
                     {
-                        "name": "TVG Galicia",
+                        "name": "CMM Castilla La-Mancha",
                         "description": "RTVG",
                         "language": "es",
                         "country": "es",
@@ -2114,8 +2114,8 @@
                         "indexGroup": 70
                     },
                     {
-                        "name": "Movistar Plus+",
-                        "description": "Movistar Plus+",
+                        "name": "M+ La Resistencia 24h",
+                        "description": "M+",
                         "language": "es",
                         "country": "es",
                         "channelTags": [
@@ -2301,6 +2301,50 @@
                         ],
                         "indexFavourite": 79,
                         "indexGroup": 79
+                    },
+                    {
+                        "name": "DAZN LALIGA 2",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "DAZN.LALIGA.2.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/56245",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 2,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603884",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 80,
+                        "indexGroup": 80
+                    },
+                    {
+                        "name": "M+ Liga de Campeones 2",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "M+.Liga.de.Campeones.2.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/29265",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 81,
+                        "indexGroup": 81
                     }
                 ]
             }
