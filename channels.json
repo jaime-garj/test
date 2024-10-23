@@ -1122,6 +1122,81 @@
                         ],
                         "indexFavourite": 28,
                         "indexGroup": 28
+                    },
+                    {
+                        "name": "PARAMOUNT NETWORK",
+                        "description": "Paramount",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "Paramount.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 1,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603776",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 2,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/1213",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 29,
+                        "indexGroup": 29
+                    },
+                    {
+                        "name": "TEN",
+                        "description": "TEN",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "TEN.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 1,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603844",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 2,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/52392",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 30,
+                        "indexGroup": 30
+                    },
+                    {
+                        "name": "Realmadrid TV",
+                        "description": "RM",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "RMTV.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 2,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603796",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 31,
+                        "indexGroup": 31
                     }
                 ]
             }
