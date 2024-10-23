@@ -1282,6 +1282,86 @@
                         ],
                         "indexFavourite": 35,
                         "indexGroup": 35
+                    },
+                    {
+                        "name": "La 7 Castilla y León",
+                        "description": "RTVCYL",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Castilla y León",
+                        "channelTags": [
+                            "La7.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https:{token}",
+                                "apiCalls": [
+                                    {
+                                        "url": "https://cdnapi.codev8.net/apicloud/v1.0/public/iframe/6113efbf-3c00-46d8-b0ba-67a9bac52ffb",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 1,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "media.m3u8"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "IPTV"
+                            }
+                        ],
+                        "headers": [
+                            {
+                                "key": "Referer",
+                                "value": "cdnapi.codev8.net"
+                            }
+                        ],
+                        "indexFavourite": 36,
+                        "indexGroup": 36
+                    },
+                    {
+                        "name": "TV3",
+                        "description": "TV3",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Cataluña",
+                        "channelTags": [
+                            "TV3.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://directes-tv-cat.ccma.cat/live-origin/tv3-hls/master.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 37,
+                        "indexGroup": 37
+                    },
+                    {
+                        "name": "3/24",
+                        "description": "TV3",
+                        "language": "es",
+                        "country": "es",
+                        "region": "Cataluña",
+                        "channelTags": [
+                            "324.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://directes-tv-int.ccma.cat/live-origin/canal324-hls/master.m3u",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 38,
+                        "indexGroup": 38
                     }
                 ]
             }
