@@ -2033,18 +2033,18 @@
                         "indexGroup": 67
                     },
                     {
-                        "name": "STAR Channel",
+                        "name": "Calle 13",
                         "description": "M+",
                         "language": "es",
                         "country": "es",
                         "channelTags": [
-                            "STAR.Channel.es"
+                            "Calle.13.es"
                         ],
                         "streamSources": [
                             {
-                                "name": "Pirata M+ vip.sibfungold.net",
+                                "name": "Pirata M+ abcnew.site",
                                 "index": 1,
-                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/53665",
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/2577",
                                 "type": "IPTV"
                             }
                         ],
