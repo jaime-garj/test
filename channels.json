@@ -1912,6 +1912,87 @@
                         ],
                         "indexFavourite": 62,
                         "indexGroup": 62
+                    },
+                    {
+                        "name": "M+ LALIGA TV",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "M+.LALIGA.TV.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 1,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/2010",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 2,
+                                "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603709",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 3,
+                                "url": "http://jmrk.xyz:3050/gailstamps.gs@gmail.com/htYnUZkxEB/603709",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 63,
+                        "indexGroup": 63
+                    },
+                    {
+                        "name": "DAZN LALIGA",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "DAZN.LALIGA.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 1,
+                                "url": "http://jmrk.xyz:3050/gailstamps.gs@gmail.com/htYnUZkxEB/603886",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 64,
+                        "indexGroup": 64
+                    },
+                    {
+                        "name": "M+ Liga de Campeones",
+                        "description": "M+",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "M+.Liga.de.Campeones.es"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Pirata M+ abcnew.site",
+                                "index": 1,
+                                "url": "http://abcnew.site:8880/6mk410034/93527313/29266",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ vip.sibfungold.net",
+                                "index": 2,
+                                "url": "http://vip.sibfungold.net:8080/hfmkelibia@/7Z2rT2evWKvnPEKYXVrj5hVP/5095",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 3,
+                                "url": "http://jmrk.xyz:3050/gailstamps.gs@gmail.com/htYnUZkxEB/603622",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 65,
+                        "indexGroup": 65
                     }
                 ]
             }
