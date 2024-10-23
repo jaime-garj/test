@@ -973,7 +973,7 @@
                         "language": "es",
                         "country": "es",
                         "channelTags": [
-                            "Telecinco.TV"
+                            "Bemad.TV"
                         ],
                         "streamSources": [
                             {
@@ -1020,6 +1020,83 @@
                         ],
                         "indexFavourite": 24,
                         "indexGroup": 24
+                    },
+                    {
+                        "name": "GOL PLAY",
+                        "description": "Mediapro",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "GOL.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://core.golstadium.com/v1/media/24h-live-gol/manifest/index.m3u8?token=fb16abb71555ca49cbf4747bf2b98c81",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 25,
+                        "indexGroup": 25
+                    },
+                    {
+                        "name": "El Toro TV",
+                        "description": "El Toro TV (Intereconomía)",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "ElToroTV.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "https://edge-nodo-002.streaming.hitcloser.net/eltorotv-streaming-web/index.m3u8",
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 26,
+                        "indexGroup": 26
+                    },
+                    {
+                        "name": "DMAX",
+                        "description": "DMAX",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "DMax.TV"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Web",
+                                "index": 1,
+                                "url": "{token}",
+                                "apiCalls": [
+                                    {
+                                        "url": "https://public.aurora.enhanced.live/playback/channelPlaybackInfo/1?usePreAuth=true",
+                                        "method": "GET",
+                                        "type": "json",
+                                        "index": 1,
+                                        "responseKeys": [
+                                            {
+                                                "index": 1,
+                                                "jsonPath": "data.attributes.streaming[0]url"
+                                            }
+                                        ],
+                                        "headers": [
+                                            {
+                                                "key": "Authorization",
+                                                "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWFsbSI6ImVzIiwiaWF0IjoxNzI4ODI0OTM1LCJleHAiOjE3MzE0MTY5MzV9.v2sML0ZLLLP84Fh6c_3_gkAcwObMoXCR13yuadN1dOQ"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "type": "IPTV"
+                            }
+                        ],
+                        "indexFavourite": 26,
+                        "indexGroup": 26
                     }
                 ]
             }
