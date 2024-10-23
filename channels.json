@@ -1158,14 +1158,20 @@
                         ],
                         "streamSources": [
                             {
-                                "name": "Pirata M+ jmrk.xyz",
+                                "name": "Pirata M+ home-playtv.com",
                                 "index": 1,
+                                "url": "http://home-playtv.com:8080/skyperu2021/tqZnuwEDTaeT/219454",
+                                "type": "IPTV"
+                            },
+                            {
+                                "name": "Pirata M+ jmrk.xyz",
+                                "index": 2,
                                 "url": "http://jmrk.xyz:3050/aaronbhagerman@yahoo.com/COf1hHEhiX/603844",
                                 "type": "IPTV"
                             },
                             {
                                 "name": "Pirata M+ abcnew.site",
-                                "index": 2,
+                                "index": 3,
                                 "url": "http://abcnew.site:8880/6mk410034/93527313/52392",
                                 "type": "IPTV"
                             }
