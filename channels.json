@@ -2389,8 +2389,8 @@
                             {
                                 "name": "Twitch",
                                 "index": 1,
-                                "url": "https://usher.ttvnw.net/api/channel/hls/miaskylar96.m3u8?acmb=eyJBcHBWZXJzaW9uIjoiZTFjOTk4ZDQtZTgzZC00YmJjLTk4ZmUtMGVjMTZjNzRmNDhjIn0%3D&allow_source=true&browser_family=firefox&browser_version=131.0&cdm=wv&fast_bread=true&os_name=Linux&os_version=undefined&p=4875232&platform=web&play_session_id=cf1a53db3fa454478184ce787bf4c590&player_backend=mediaplayer&player_version=1.34.0-rc.2.2&playlist_include_framerate=true&reassignments_supported=true&sig=4315df84459e3f57eb39f0b751d08555ad0123b0&supported_codecs=av1,h264&token=%7B%22adblock%22%3Afalse%2C%22authorization%22%3A%7B%22forbidden%22%3Afalse%2C%22reason%22%3A%22%22%7D%2C%22blackout_enabled%22%3Afalse%2C%22channel%22%3A%22miaskylar96%22%2C%22channel_id%22%3A460218694%2C%22chansub%22%3A%7B%22restricted_bitrates%22%3A%5B%5D%2C%22view_until%22%3A1924905600%7D%2C%22ci_gb%22%3Afalse%2C%22geoblock_reason%22%3A%22%22%2C%22device_id%22%3A%22cj0SGwKUJYTXrcRZWoxO3srnnEyfU5ou%22%2C%22expires%22%3A1729797752%2C%22extended_history_allowed%22%3Afalse%2C%22game%22%3A%22%22%2C%22hide_ads%22%3Afalse%2C%22https_required%22%3Atrue%2C%22mature%22%3Afalse%2C%22partner%22%3Afalse%2C%22platform%22%3A%22web%22%2C%22player_type%22%3A%22site%22%2C%22private%22%3A%7B%22allowed_to_view%22%3Atrue%7D%2C%22privileged%22%3Afalse%2C%22role%22%3A%22%22%2C%22server_ads%22%3Atrue%2C%22show_ads%22%3Atrue%2C%22subscriber%22%3Afalse%2C%22turbo%22%3Afalse%2C%22user_id%22%3A237964486%2C%22user_ip%22%3A%22185.93.233.194%22%2C%22version%22%3A2%7D&transcode_mode=cbr_v1",
-                                "type": 0
+                                "url": "miaskylar96",
+                                "type": 3
                             }
                         ],
                         "indexFavourite": 83,
