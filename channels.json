@@ -2395,6 +2395,25 @@
                         ],
                         "indexFavourite": 83,
                         "indexGroup": 83
+                    },
+                    {
+                        "name": "Twitch Test 2",
+                        "description": "Twitch",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "a"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "Twitch",
+                                "index": 1,
+                                "url": "JuntaUrgentee",
+                                "type": 3
+                            }
+                        ],
+                        "indexFavourite": 84,
+                        "indexGroup": 84
                     }
                 ]
             }
