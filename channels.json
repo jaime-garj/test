@@ -2414,6 +2414,25 @@
                         ],
                         "indexFavourite": 84,
                         "indexGroup": 84
+                    },
+                    {
+                        "name": "YouTube Test",
+                        "description": "YouTube",
+                        "language": "es",
+                        "country": "es",
+                        "channelTags": [
+                            "a"
+                        ],
+                        "streamSources": [
+                            {
+                                "name": "YT",
+                                "index": 1,
+                                "url": "canalsur",
+                                "type": 2
+                            }
+                        ],
+                        "indexFavourite": 85,
+                        "indexGroup": 85
                     }
                 ]
             }
