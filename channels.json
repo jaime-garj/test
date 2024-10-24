@@ -277,7 +277,7 @@
                             {
                                 "name": "Web",
                                 "index": 1,
-                                "url": "https://directos.mitele.es/orilinear21/live/linear21/playlist/playlist.isml/ctv.m3u8?{token}",
+                                "url": "https://directos.mitele.es/orilinear29/live/linear29/playlist/playlist.isml/ctv.m3u8?{token}",
                                 "apiCalls": [
                                     {
                                         "url": "https://cerbero.mediaset.es",
