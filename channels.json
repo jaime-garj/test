@@ -193,10 +193,10 @@
                         ],
                         "streamSources": [
                             {
-                                "name": "YouTube",
+                                "name": "YT",
                                 "index": 1,
-                                "url": "https://ythls-v3.onrender.com/channel/UChtLgH7ZJLqLGWJpBnzy9Lg.m3u8",
-                                "type": 0
+                                "url": "canalsur",
+                                "type": 2
                             },
                             {
                                 "name": "Cloudfront HEVC",
@@ -1614,10 +1614,10 @@
                         ],
                         "streamSources": [
                             {
-                                "name": "Web",
+                                "name": "YouTube",
                                 "index": 1,
-                                "url": "https://ythls-v3.onrender.com/channel/UCff_CBVJDTHP4wOHPjP5BMg.m3u8",
-                                "type": 0
+                                "url": "ib3",
+                                "type": 2
                             }
                         ],
                         "indexFavourite": 49,
@@ -2414,25 +2414,6 @@
                         ],
                         "indexFavourite": 84,
                         "indexGroup": 84
-                    },
-                    {
-                        "name": "YouTube Test",
-                        "description": "YouTube",
-                        "language": "es",
-                        "country": "es",
-                        "channelTags": [
-                            "a"
-                        ],
-                        "streamSources": [
-                            {
-                                "name": "YT",
-                                "index": 1,
-                                "url": "canalsur",
-                                "type": 2
-                            }
-                        ],
-                        "indexFavourite": 85,
-                        "indexGroup": 85
                     }
                 ]
             }
