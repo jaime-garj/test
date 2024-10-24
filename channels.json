@@ -2340,12 +2340,12 @@
                         "indexGroup": 80
                     },
                     {
-                        "name": "M+ Liga de Campeones 3",
+                        "name": "M+ Liga de Campeones 2",
                         "description": "M+",
                         "language": "es",
                         "country": "es",
                         "channelTags": [
-                            "M+.Liga.de.Campeones.3.es"
+                            "M+.Liga.de.Campeones.2.es"
                         ],
                         "streamSources": [
                             {
